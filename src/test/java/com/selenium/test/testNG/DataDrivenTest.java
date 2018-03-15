@@ -19,6 +19,7 @@ public class DataDrivenTest {
 		System.out.println(prop.getProperty("user"));
 		System.out.println(prop.getProperty("password"));
 		System.out.println(prop.getProperty("saludo"));
+		System.out.println("Hola mundo");
 	}
 
 }
