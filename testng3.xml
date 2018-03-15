@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="2" parallel = "classes" name="La wea NG">
+
+		<classes>
+			<class name="com.selenium.test.testNG.Browser1"></class>
+			<class name="com.selenium.test.testNG.Browser2"></class>
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

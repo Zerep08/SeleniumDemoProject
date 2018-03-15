@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="a" value="1"/>
+  <parameter name="b" value="2"/>
+  <listeners>
+    <listener class-name="com.selenium.test.testNG.Listener"/>
+  </listeners>
+  <test thread-count="5" name="La wea NG(failed)">
+    <classes>
+      <class name="com.selenium.test.testNG.Prueba">
+        <methods>
+          <include name="antes"/>
+          <include name="add"/>
+          <include name="wea"/>
+        </methods>
+      </class> <!-- com.selenium.test.testNG.Prueba -->
+    </classes>
+  </test> <!-- La wea NG(failed) -->
+</suite> <!-- Failed suite [Suite] -->
