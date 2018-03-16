@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56" started-at="2018-03-14T21:44:01Z" finished-at="2018-03-14T21:44:01Z">
+  <suite name="Suite" duration-ms="30402" started-at="2018-03-15T18:58:01Z" finished-at="2018-03-15T18:58:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56" started-at="2018-03-14T21:44:01Z" finished-at="2018-03-14T21:44:01Z">
-      <class name="com.selenium.test.testNG.DataDrivenTest">
-        <test-method status="PASS" signature="getProperties()[pri:0, instance:com.selenium.test.testNG.DataDrivenTest@32d2fa64]" name="getProperties" duration-ms="16" started-at="2018-03-14T21:44:01Z" finished-at="2018-03-14T21:44:01Z">
+    <test name="La wea NG" duration-ms="30402" started-at="2018-03-15T18:58:01Z" finished-at="2018-03-15T18:58:32Z">
+      <class name="com.selenium.test.testNG.Browser1Test">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.selenium.test.testNG.Browser1Test@cb51256]" name="test1" duration-ms="29342" started-at="2018-03-15T18:58:01Z" finished-at="2018-03-15T18:58:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getProperties -->
-      </class> <!-- com.selenium.test.testNG.DataDrivenTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.selenium.test.testNG.Browser1Test -->
+      <class name="com.selenium.test.testNG.Browser2Test">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.selenium.test.testNG.Browser2Test@25af5db5]" name="test2" duration-ms="30349" started-at="2018-03-15T18:58:01Z" finished-at="2018-03-15T18:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.selenium.test.testNG.Browser2Test -->
+    </test> <!-- La wea NG -->
+  </suite> <!-- Suite -->
 </testng-results>

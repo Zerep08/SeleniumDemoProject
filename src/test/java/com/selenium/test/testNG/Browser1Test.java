@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Browser1 {
+public class Browser1Test {
 
 	public String baseUrl = "http://google.com.mx";
 	String driverPath = "C:\\Users\\1459751\\Documents\\Libraries\\chromedriver_win32\\chromedriver.exe";

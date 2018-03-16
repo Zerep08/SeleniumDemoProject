@@ -5,8 +5,8 @@
 	<test thread-count="2" parallel = "classes" name="La wea NG">
 
 		<classes>
-			<class name="com.selenium.test.testNG.Browser1"></class>
-			<class name="com.selenium.test.testNG.Browser2"></class>
+			<class name="com.selenium.test.testNG.Browser1Test"></class>
+			<class name="com.selenium.test.testNG.Browser2Test"></class>
 
 		</classes>
 

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import com.beust.jcommander.Parameter;
 
-public class Prueba {
+public class PruebaTest {
 
 @Test(priority=2)  //(groups= {"smoke"})
   public void movf() {
